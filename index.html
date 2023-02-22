@@ -20,12 +20,21 @@
       rel="stylesheet"
     />
     <!-- Font Awesome Icons -->
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
       integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
       crossorigin="anonymous"
+    /> -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
+
     <!-- Main CSS -->
     <link href="./assets/css/main.css" rel="stylesheet" />
     <link href="./assets/css/custom.css" rel="stylesheet" />
@@ -52,7 +61,9 @@ NAVBAR
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="navbar-collapse collapse" id="navbarColor02">
-          <ul class="navbar-nav mr-auto d-flex align-items-center justify-content-between">
+          <ul
+            class="navbar-nav mr-auto d-flex align-items-center justify-content-between"
+          >
             <li class="nav-item">
               <a class="nav-link" href="./index.html"
                 >Homepage <span class="sr-only">(current)</span></a
@@ -71,11 +82,18 @@ NAVBAR
               <a class="nav-link" href="./about.html">About Us</a>
             </li>
           </ul>
-					<ul class="navbar-nav ml-auto d-flex align-items-center">
-						<li class="nav-item highlight">
-						<a class="nav-link" href="https://www.facebook.com/tipidshoppinghints">Join Our Community</a>
-						</li>
-					</ul>
+          <ul class="navbar-nav ml-auto d-flex align-items-center">
+            <li class="nav-item highlight">
+              <a
+                class="nav-link"
+                href="https://www.facebook.com/tipidshoppinghints"
+                target="_blank"
+              >
+                <i class="fa-brands fa-facebook mr-1"></i>
+                We're on Facebook</a
+              >
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
@@ -91,29 +109,31 @@ HEADER
         <div class="pl-4 pr-0 h-100 tofront">
           <div class="row justify-content-between">
             <div class="col-md-6 pt-6 pb-6 align-self-center">
-              <h1 class="secondfont mb-3 font-weight-bold">
-                Tipid Shopping Hints
+              <h1 class="secondfont mb-3 font-weight-bold text-uppercase">
+                Shop Smart, Save Big!
               </h1>
               <h3>
-                <small class="d-block text-muted"
-                  >Unlock the secrets of online shopping!</small
+                <small class="d-block text-muted text-uppercase" style="letter-spacing: 0.5px;"
+                  >Unlock the secrets of online shopping</small
                 >
               </h3>
               <p class="mb-3 pt-3 pr-1 pb-3">
-                Here, we curate the best shopping hints and tips to help you
-                maximize your shopping experience. Whether you're an experienced
-                shopper or a newbie, we want to bring you the latest trends and
-                must-have items to make your life easier and more enjoyable. We
-                also provide valuable insights into the best deals, discounts,
-                and promotions that will save you money.
+                Welcome to your ultimate guide to all things shopping! From the
+                latest trends to insider tips, we've got everything you need to
+                know to make your shopping experience as enjoyable and
+                budget-friendly as possible. Whether you're a seasoned shopper
+                or a newbie, get ready to level up your game with our expert
+                insights and must-have items.
               </p>
-              <a href="./article.html" class="btn btn-dark">Read More</a>
+              <a href="./article.html" class="btn btn-danger"
+                >Let's get started!</a
+              >
             </div>
             <div
               class="col-md-6 d-none d-md-block pr-0"
               style="
                 background-size: cover;
-                background-image: url(./assets/img/portrait-expressive-young-woman-with-shopping-bags.jpg);
+                background-image: url(./assets/img/young-asian-woman-holding-credit-card-with-her-laptop-shopping-bags-online-shopping.jpg);
               "
             ></div>
           </div>
@@ -337,14 +357,9 @@ FOOTER
             . All rights reserved.
           </div>
           <div>
-            Made with
-            <a
-              target="_blank"
-              class="text-secondary font-weight-bold"
-              href="https://www.wowthemes.net/mundana-free-html-bootstrap-template/"
-              >Mundana Theme</a
-            >
-            by WowThemes.net.
+            <a href="./privacy" class="text-muted">Privacy Policy</a>
+            |
+            <a href="./terms" class="text-muted">Terms of Use</a>
           </div>
         </div>
       </footer>
