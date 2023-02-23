@@ -1,6 +1,23 @@
 .brand-logo {
-  height: 60px;
-  width: 60px;
+  height: 38px;
+  width: 38px;
   border: 2px solid goldenrod;
   border-radius: 50%;
+}
+
+.navbar .facebook .nav-link {
+  color: #3b5998 !important;
+  border: 1px solid #3b5998;
+  padding: 0.3rem 1rem;
+  border-radius: 3px;
+  font-size: 0.93rem;
+}
+
+.facebook .nav-link:hover {
+  background: #3b5998;
+  color: #fff !important;
+}
+
+.navbar-brand .tsh {
+  font-family: Arial, Helvetica, sans-serif;
 }
